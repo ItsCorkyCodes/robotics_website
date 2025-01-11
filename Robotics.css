@@ -1,0 +1,207 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2, h1 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00d4ff;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c;
+  padding: 20px 0;
+}
+
+.navbar .logo h2 {
+  color: #00d4ff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li {
+  font-size: 1.1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00d4ff;
+}
+
+/* Hero Section */
+.hero {
+  background: url('robotics_hero.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin: 20px 0;
+}
+
+.cta-btn {
+  background-color: #00d4ff;
+  color: #121212;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #fff;
+  color: #121212;
+}
+
+/* About Us Section */
+.about {
+  padding: 80px 0;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Sponsors Section */
+.sponsors {
+  padding: 80px 0;
+  background-color: #121212;
+  text-align: center;
+}
+
+.sponsors h2 {
+  margin-bottom: 40px;
+}
+
+.sponsor-logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.sponsor-logo {
+  width: 150px;
+  height: auto;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.sponsor-logo:hover {
+  opacity: 1;
+}
+
+/* Contact Us Section */
+.contact {
+  padding: 80px 0;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 40px;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 150px;
+}
+
+.submit-btn {
+  background-color: #00d4ff;
+  color: #121212;
+  border: none;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+  color: #121212;
+}
+
+/* Footer */
+.footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.footer p {
+  font-size: 1rem;
+}
